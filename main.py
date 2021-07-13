@@ -27,8 +27,7 @@ encrypting_type = input("what is your cypher type ? Caeser or Pig Pen \n")
 user_action = (input("what do you want to do with your text? Encrypt or Decrypt \n"))
 user_text = input("please type your text \n")
 
-
-if encrypting_type.lower() == "ceaser" and user_action.lower() == "encrypt":
+if encrypting_type.lower() == "caeser" and user_action.lower() == "encrypt":
     encrypt(user_text)
-elif encrypting_type.lower() == "ceaser" and user_action.lower() == "decrypt":
+elif encrypting_type.lower() == "caeser" and user_action.lower() == "decrypt":
     decrypt(user_text)
